@@ -1,38 +1,192 @@
-.App {
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b91d1d;
+  text-decoration: none;
+}
+
+.md {
+  font-size: 32px;
+}
+
+#logo-content div {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#content div {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#content-left div {
+  margin-top: 10px;
+}
+
+.objetfitcover>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#content-twin div {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#content-f div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#content-footer div {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sm-title {
+  font-size: 20px;
+}
+
+.sm-text {
+  color: #7e7e7e;
+  font-size: 12px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-link h1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.login {
+  margin-top: 10px;
+}
+
+.nav-item:hover {
+  background-color: #b91d1d;
+}
+
+.finder {
+  display: inline-block;
+}
+
+.btn-link {
+  display: inline-block;
+}
+
+.form-controlmx {
+  display: inline-block;
+  margin-top: 10px;
+  width: 50%;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: .25rem;
+  transition: none;
+}
+
+.line-t {
+  border: 1px solid #b91d1d;
+}
+
+.logo img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.logo p {
+  font-size: 10px;
+  line-height: 1.2em;
+  color: #666;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-primary {
+  color: #fff;
+  background-color: #b91d1d;
+  border-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0e0e0e;
+  border-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.redes {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.redes .follow {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.redes .follow a {
+  display: flex;
+}
+
+.redes .follow a {
+  display: block;
+  margin: 0 0 0 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #000;
+  background-image: url('./img/sprite-ico-generales.svg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  filter: invert(0.9);
+  transition: all 0.1s linear;
+}
+
+.redes .follow a.facebook {
+  background-position: -30px -60px;
+}
+
+.redes .follow a.twitter {
+  background-position: 0 -60px;
+}
+
+.redes .follow a.instagram {
+  background-position: -90px -60px;
+}
+
+.redes .follow a.youtube {
+  background-position: -60px -60px;
+}
+
+.secciones ul li a {
+  font-size: 12px;
+  color: #666;
+}
+
+.secciones ul li {
+  list-style: none;
+}
+
+.secciones ul {
+  padding: 0;
+}
+
+.secciones p {
+  font-size: 12px;
+  color: #666;
 }
