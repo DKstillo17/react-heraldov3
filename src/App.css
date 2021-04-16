@@ -1,17 +1,27 @@
 
 a {
-  color: black;
-  text-decoration: none;
+  color: black ;
+  text-decoration: none !important;
 }
 
 a:hover {
   color: #b91d1d;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.jumbotron{
+  background-color: transparent !important;
 }
 
 .md {
+  color: #b91d1d;
   font-size: 32px;
 }
+
+.md:hover{
+  color: #ad1c1c;
+}
+
 
 #logo-content div {
   padding: 10px;
@@ -75,7 +85,7 @@ a:hover {
 }
 
 .nav-item:hover {
-  background-color: #b91d1d;
+  color: #b91d1d !important;
 }
 
 .finder {
@@ -117,16 +127,15 @@ a:hover {
   text-align: center;
 }
 
-.btn-primary {
-  color: #fff;
+.btn-primaryx {
+  color: #fff !important;
   background-color: #b91d1d;
   border-color: transparent;
 }
 
-.btn-primary:hover {
+.btn-primaryx:hover {
   color: #fff;
-  background-color: #0e0e0e;
-  border-color: transparent;
+  background-color: #ad1c1c;
 }
 
 .redes {
@@ -171,6 +180,10 @@ a:hover {
 
 .redes .follow a.youtube {
   background-position: -60px -60px;
+}
+
+.sm-title{
+  color: #b91d1d !important;
 }
 
 .secciones ul li a {

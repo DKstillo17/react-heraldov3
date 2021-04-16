@@ -3,7 +3,6 @@ import './App.css';
 import './css/font-awesome.min.css';
 
 import Header from './components/header';
-import Script from './components/scripts';
 import Footer from './components/footer';
 import Footersection from './components/footer-section';
 import Social from './components/social';
@@ -32,7 +31,6 @@ function App() {
         <Infocards></Infocards>
         <hr></hr>
         <Social></Social>
-        <Script></Script>
         <hr></hr>
         <Footersection></Footersection>
         <Footer></Footer>

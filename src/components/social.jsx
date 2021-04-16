@@ -5,7 +5,7 @@ function Social(){
     return(
         <div className="row" id="content-f">
             <div className="col-md-4">
-                <button type="button" className="btn btn-primary btn-sm">SUSCRÍBETE AL BOLETÍN DIARIO DE NOTICIAS</button>
+                <button type="button" className="btn btn-primaryx btn-sm">SUSCRÍBETE AL BOLETÍN DIARIO DE NOTICIAS</button>
             </div>
             <div className="col-md-4 logo">
                 <img src="https://www.elheraldo.co/sites/all/themes/elheraldo/images/el-heraldo-logo.svg" alt=""></img>

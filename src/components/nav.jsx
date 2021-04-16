@@ -6,7 +6,7 @@ function Nav(){
         <div class="row">
             <div class="col-md-12">
                 <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
+                    <li class="nav-item nav-itemx">
                         <a class="nav-link" aria-current="page" href="#" style={{fontWeight: "500;"}}>
                             <i class="fa fa-newspaper-o" aria-hidden="true"></i> NOTICIAS
                         </a>
